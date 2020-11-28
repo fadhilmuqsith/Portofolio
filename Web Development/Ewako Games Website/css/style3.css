@@ -1,0 +1,253 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.logo{
+	display: inline-block;
+	margin-left: 10px;
+}
+.logo img {
+	width: 200px;
+	border-left: 4px solid #3B3C3E;
+	border-right: 4px solid #3B3C3E;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.navigasi {
+	background-color: #0071BC;
+	padding: 30px;
+	font-size:20px;
+	width: 100%;
+	position: relative;
+	z-index: 1000;
+	box-sizing: border-box;
+}
+.navigasi input[name="search"]{
+	border: 2px solid white;
+	padding: 5px 10px 5px 15px;
+	height: 30px;
+	width: 15%;
+	background-color:#0071BC00; 
+	color: white;
+	font-size: 15px;
+	float: right;
+	margin-top: 1.5%;
+	margin-left: 1%;
+}
+.navigasi input[name="search2"]{
+	border: 2px solid white;
+	height: 45px;
+	width: 8%;
+	background-color:white; 
+	color: #0071BC;
+	font-size: 15px;
+	float: right;
+	margin-top: 1.5%;
+	margin-right: 2%;
+	margin-left: 1.5%;
+	font-weight: bold;
+	cursor: pointer;
+}
+.navigasi input:focus {
+	background-color: white;
+	color:#0071BC;
+	border: 2px solid #2293DE;
+}
+.navigasi input::-webkit-input-placeholder {
+	color: white;
+}
+.navigasi2 input {
+	width: 20%;
+	border-radius: 40px;
+	font-size: 15px;
+	background-color:white;
+	color: #3B3C3E;
+	border: none;
+	padding: 8px 0px 8px 15px;
+	z-index: -1;
+	border: 3px solid #3B3C3E;
+	float: right;
+	margin-right: 5%;
+	margin-top: -2px;
+}
+.cari {
+	cursor: pointer;
+	background-color: white;
+	border: 3px solid #3B3C3E;
+	border-radius:40px; 
+	height: 25px;
+	padding: 4px 8px 4px 8px;
+	float: right;
+	margin-top: -2px;
+	margin-right: -22%;
+}
+
+.navigasi2 {
+	background-color: #3B3C3E00;
+	padding: 10px;
+	font-weight: bold;
+	width: 100%;
+	height: 60px;
+	top:0;
+	position: sticky;
+	z-index: 1000;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: white;
+
+}
+.navigasi2 ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.navigasi2 ul li{
+	list-style: none;
+}
+.navigasi2 ul li a {
+	text-decoration: none;
+	color: #3B3C3E;
+	padding: 12px 30px;
+	line-height: 38px;
+	transition: .25s ease;
+}
+.navigasi2 a:hover {
+	transition: .25s ease;
+	border-bottom: 4px solid #3B3C3E;
+	border-top: 4px solid #3B3C3E;
+}
+.footer {
+	margin-top: -20px;
+	background-image: url(../gambar/about.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:800px;
+	box-sizing:border-box;
+	padding: 0 50px 0 50px;
+}
+.footer img {
+	position: absolute;
+	width: 100%;
+	z-index: -2;
+
+}
+.footer h2[name="textf"]{
+	position: relative;
+	text-align: center;
+	background-color: #5f6266;
+	color: white;
+	font-family: sans-serif;
+	width: 15%;
+	top:40px;
+	left: 44%;
+}
+.footer2{
+	border-top:  5px solid white;
+	width: 100%;
+	height:600px;
+	box-sizing:border-box;
+	padding: 30px 60px 30px 60px;
+	text-align: center;
+}
+.gbr {
+	height: 500px;
+	width: 30%;
+	background-color:#3b3c3e; 
+	display: inline-block;
+	z-index: 100; 
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+.clk {
+	position: relative;
+	top: 75%;
+	padding: 20px;
+	color: white;
+	background: #0071bc;
+	box-shadow: 2px 2px white;
+	border-bottom: 5px solid white;
+	border-top: 5px solid white; 
+}
+.clk h2 {
+	border: none;
+}
+.gbr img {
+	position: relative;
+	top: -500px;
+	width: 80%;
+	z-index: 100; 
+}
+.gbr h4 {
+	position: relative;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 200%;
+	color: white;
+	font-family: sans-serif;
+	font-size :15px;
+	border-bottom: 2px solid white;
+	padding-bottom: 10px;
+	width :80%; 
+}
+.gbr h3 {
+	position: relative;
+	margin-top: -2%;
+	color: white;
+	font-family: sans-serif;
+	font-size :15px;
+}
+.footer3 {
+	margin-top:-10%; 
+	background-color: #6a6a6a;
+	width: 100%;
+	height:200px;
+	box-sizing:border-box;
+	padding: 0 50px 0 50px;
+}
+.footer3 h2[name="textf"]{
+	position: relative;
+	text-align: center;
+	background-color: #6a6a6a;
+	color: white;
+	font-family: sans-serif;
+	width: 15%;
+	top:40px;
+	left: 44%;
+}
+.footer4{
+	border-top:  5px solid white;
+	border-bottom: 5px solid white;
+	width: 100%;
+	height:130px;
+	box-sizing:border-box;
+	padding: 30px 60px 30px 60px;
+	text-align: center;
+	z-index: 999;
+}
+.gambar {
+	padding: 20px 10px 10px 10px;
+	width: 5%;
+	height: 50px;
+	display: inline-block;
+	margin-left: 5%;
+}
+.gambar:hover{
+	border-radius: 100%;
+	background-color:#0071bc; 
+}
+.cr {
+	color: white;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	text-align: center;
+	background-color: #0071bc;
+	padding: 10px;
+}

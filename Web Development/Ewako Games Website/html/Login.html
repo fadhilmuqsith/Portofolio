@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
+	<script type="text/javascript" src="../jquery_3.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#signup").click(function(){
+				$(".slider").animate({left:"2%"},400);
+				$(".slider").animate({left:"5%"},200);
+				$("#signinform").css("visibility","hidden");
+				$("#signinform").animate({left:"10%"},200);
+
+				$("#signupform").animate({left:"4%"},400);
+				$("#signupform").animate({left:"10%"},200);
+				$("#signupform").css("visibility","visible");
+			});
+			$("#signin").click(function(){
+				$(".slider").animate({left:"57%"},400);
+				$(".slider").animate({left:"55%"},200);
+				$("#signupform").css("visibility","hidden");
+				$("#signupform").animate({left:"60%"},400);
+
+				$("#signinform").animate({left:"65%"},400);
+				$("#signinform").animate({left:"60%"},200);
+				$("#signinform").css("visibility","visible");
+			});
+		});
+		
+	</script>
+	<title>Ewako Games | Best Game Online Shop |</title>
+</head>
+<body>
+	<div class="header">
+		<div class="logo"><img src="../gambar/logo.png" class="logo"></div>
+	</div>
+	<div class="article">
+		<img src="../gambar/bg4.jpg" width="100%">
+		<div class="box">
+			
+			<div class="slider">
+				
+			</div>
+			<div id="signinform">
+				<h1>SIGN IN</h1>
+				<input type="email" name="email" placeholder="Email"><br>
+				<input type="password" name="pass" placeholder="Password"><br>
+				<a href="home.html"><button>SIGN IN</button></a>
+			</div>	
+
+			<div id="signupform">
+				<h1>SIGN UP</h1>
+				<input type="text" name="name" placeholder="Full Name"><br>
+				<input type="email" name="email" placeholder="Email"><br>
+				<input type="password" name="pass" placeholder="Password"><br>
+				<input type="password" name="pass" placeholder="Confirm Password"><br>
+				<a href="home.html"><button>SIGN UP</button></a>
+			</div>	
+			<div id="signininfo">Have an account ?</div>
+			<div id="signupinfo">Don't have an account ?</div>
+			<button id="signin">SIGN IN</button>
+			<button id="signup">SIGN UP</button>
+		</div>
+	</div>
+	<div class="cr">
+		<h3>&copy; 2018 Ewako Games.com</h3>
+	</div>
+
+</body>
+</html>

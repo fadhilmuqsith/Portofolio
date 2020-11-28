@@ -1,0 +1,211 @@
+body {
+	width: 100%;
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+.bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	z-index: -1;
+}
+.bg img{
+	height: 100%;
+	width: 100%;
+}
+.logo{
+	display: inline-block;
+	margin-left: 10px;
+}
+.logo img {
+	width: 200px;
+	border-left: 4px solid #3B3C3E;
+	border-right: 4px solid #3B3C3E;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.navigasi {
+	background-color: #0071BC;
+	padding: 30px;
+	font-size:20px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	box-sizing: border-box;
+}
+.navigasi input[name="search"]{
+	border: 2px solid white;
+	padding: 5px 10px 5px 15px;
+	height: 30px;
+	width: 15%;
+	background-color:#0071BC00; 
+	color: white;
+	font-size: 15px;
+	float: right;
+	margin-top: 1.5%;
+	margin-left: 1%;
+}
+.navigasi input[name="search2"]{
+	border: 2px solid white;
+	height: 45px;
+	width: 8%;
+	background-color:white; 
+	color: #0071BC;
+	font-size: 15px;
+	float: right;
+	margin-top: 1.5%;
+	margin-right: 2%;
+	margin-left: 1.5%;
+	font-weight: bold;
+	cursor: pointer;
+}
+.navigasi input:focus {
+	background-color: white;
+	color:#0071BC;
+	border: 2px solid #2293DE;
+}
+.navigasi input::-webkit-input-placeholder {
+	color: white;
+}
+.navigasi2 input {
+	width: 20%;
+	border-radius: 40px;
+	font-size: 15px;
+	background-color:white;
+	color: #3B3C3E;
+	border: none;
+	padding: 8px 0px 8px 15px;
+	z-index: -1;
+	border: 3px solid #3B3C3E;
+	float: right;
+	margin-right: 5%;
+	margin-top: -2px;
+}
+.cari {
+	cursor: pointer;
+	background-color: white;
+	border: 3px solid #3B3C3E;
+	border-radius:40px; 
+	height: 25px;
+	padding: 4px 8px 4px 8px;
+	float: right;
+	margin-top: -2px;
+	margin-right: -22%;
+}
+
+.navigasi2 {
+	background-color: #3B3C3E00;
+	padding: 10px;
+	font-weight: bold;
+	width: 100%;
+	height: 60px;
+	top:0;
+	position: sticky;
+	z-index: 1;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: white;
+
+}
+.navigasi2 ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.navigasi2 ul li{
+	list-style: none;
+}
+.navigasi2 ul li a {
+	text-decoration: none;
+	color: #3B3C3E;
+	padding: 12px 30px;
+	line-height: 38px;
+	transition: .25s ease;
+}
+.navigasi2 a:hover {
+	transition: .25s ease;
+	border-bottom: 4px solid #3B3C3E;
+	border-top: 4px solid #3B3C3E;
+}
+.latar{
+	padding: 100px;
+	padding-left: 140px; 
+	position: relative;
+	background-color: #0071bc99;
+	top: 10px;
+	left: 3%;
+	width: 75%;
+	height:955px;
+	overflow: hidden;
+}
+.diskon img{
+	margin-top: -70px;
+	margin-left:0;
+	width: 60%;
+}
+.Game {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.Game img{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.Game h2{
+	color: white;
+}
+.footer {
+	background-color: #3b3c3e;
+	width: 100%;
+	height:200px;
+	box-sizing:border-box;
+	padding: 0 50px 0 50px;
+	color: white;
+}
+.footer h2[name="textf"]{
+	position: relative;
+	text-align: center;
+	background-color: #3b3c3e;
+	width: 15%;
+	top:40px;
+	left: 44%;
+}
+.footer2{
+	border-top:  5px solid white;
+	border-bottom: 5px solid white;
+	width: 100%;
+	height:130px;
+	box-sizing:border-box;
+	padding: 30px 60px 30px 60px;
+	text-align: center;
+}
+.gambar {
+	padding: 20px 10px 10px 10px;
+	width: 5%;
+	height: 50px;
+	display: inline-block;
+	margin-left: 5%;
+}
+.gambar:hover{
+	border-radius: 100%;
+	background-color:#0071bc; 
+}
+.cr {
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+	background-color: #0071bc;
+	padding: 10px;
+	color: white;
+}

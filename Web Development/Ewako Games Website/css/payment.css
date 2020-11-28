@@ -1,0 +1,267 @@
+body {
+	margin-top: 0;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.logo{
+	display: inline-block;
+	margin-left: 10px;
+}
+.logo img {
+	width: 200px;
+	border-left: 4px solid #3B3C3E;
+	border-right: 4px solid #3B3C3E;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.navigasi {
+	background-color: #0071BC;
+	padding: 30px;
+	font-size:20px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	box-sizing: border-box;
+}
+.navigasi input[name="search"]{
+	border: 2px solid white;
+	padding: 5px 10px 5px 15px;
+	height: 30px;
+	width: 15%;
+	background-color:#0071BC00; 
+	color: white;
+	font-size: 15px;
+	float: right;
+	margin-top: 1.5%;
+	margin-left: 1%;
+}
+.navigasi input[name="search2"]{
+	border: 2px solid white;
+	height: 45px;
+	width: 8%;
+	background-color:white; 
+	color: #0071BC;
+	font-size: 15px;
+	float: right;
+	margin-top: 1.5%;
+	margin-right: 2%;
+	margin-left: 1.5%;
+	font-weight: bold;
+	cursor: pointer;
+}
+.navigasi input:focus {
+	background-color: white;
+	color:#0071BC;
+	border: 2px solid #2293DE;
+}
+.navigasi input::-webkit-input-placeholder {
+	color: white;
+}
+.navigasi2 input {
+	width: 20%;
+	border-radius: 40px;
+	font-size: 15px;
+	background-color:white;
+	color: #3B3C3E;
+	border: none;
+	padding: 8px 0px 8px 15px;
+	z-index: -1;
+	border: 3px solid #3B3C3E;
+	float: right;
+	margin-right: 5%;
+	margin-top: -2px;
+}
+.cari {
+	cursor: pointer;
+	background-color: white;
+	border: 3px solid #3B3C3E;
+	border-radius:40px; 
+	height: 25px;
+	padding: 4px 8px 4px 8px;
+	float: right;
+	margin-top: -2px;
+	margin-right: -22%;
+}
+
+.navigasi2 {
+	background-color: #3B3C3E00;
+	padding: 10px;
+	font-weight: bold;
+	width: 100%;
+	height: 60px;
+	top:0;
+	position: sticky;
+	z-index: 1;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: white;
+
+}
+.navigasi2 ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.navigasi2 ul li{
+	list-style: none;
+}
+.navigasi2 ul li a {
+	text-decoration: none;
+	color: #3B3C3E;
+	padding: 12px 30px;
+	line-height: 38px;
+	transition: .25s ease;
+}
+.navigasi2 a:hover {
+	transition: .25s ease;
+	border-bottom: 4px solid #3B3C3E;
+	border-top: 4px solid #3B3C3E;
+}
+.aside {
+	background: #333333;
+	width: 100%;
+	height: 550px;
+	position: relative;
+	float: left;
+} 
+.aside img {
+	margin-top: 20px;
+	margin-left: 2%;
+}
+.aside h3 {
+	margin-top: -180px;
+	margin-left: 40.5%;
+	color: white;
+	font-family: Aldo the apache;
+	font-size: 25px;
+}
+.goshop {
+	margin-left: 40%;
+	background-color: #0071BC88;
+	width: 13%;
+	text-align: center;
+	padding: 15px 20px 15px 20px;
+	border:2px solid white;
+	box-shadow: 3px 2px #0071BC;
+}
+.goshop a {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 3px;
+	font-size: 20px;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	padding: 3px 8px 3px 8px;
+}
+.payment{
+	margin-top: -530px;
+	margin-right: 2%;
+	background: #0071BC; 
+	width: 35%;
+	height: 500px;
+	float: right; 
+	position: relative;
+	color: white;
+}
+.payment h2 {
+	border-bottom: 2px solid white;
+	padding-bottom: 20px ;
+	width: 80%;
+}
+.form {
+	margin-left: 55px;
+	border-bottom: 2px solid white;
+	width: 80%;
+}
+.game {
+	margin-top: 35px;
+	margin-left: 55px;
+	border-bottom: 2px solid white;
+	width: 80%;
+}
+.deskripsi{
+	background: #0071BC;
+	width: 60%;
+	height: 240px;
+	float: left;
+	position: relative;
+	margin-top: -270px;
+	margin-left: 2%;
+
+}
+.deskripsi h3 {
+	margin-left: 3%;
+	color: white;
+	width: 90%;
+	border-bottom: 2px solid white;
+}
+.deskripsi h4 {
+	color: white;
+	margin-left: 3%;
+	width: 90%;
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
+}
+.more {
+	background-color: #5B5C5E;
+	position: relative;
+	width: 10%;
+	overflow: hidden;
+	color: white;
+	z-index: 1; 
+}
+.footer {
+	background-color: #3b3c3e;
+	width: 100%;
+	height:200px;
+	margin-top: 550px;
+	box-sizing:border-box;
+	padding: 0 50px 0 50px;
+	color: white;
+}
+.footer h2[name="textf"]{
+	position: relative;
+	text-align: center;
+	background-color: #3b3c3e;
+	width: 15%;
+	top:40px;
+	left: 44%;
+}
+.footer2{
+	border-top:  5px solid white;
+	border-bottom: 5px solid white;
+	width: 100%;
+	height:130px;
+	box-sizing:border-box;
+	padding: 30px 60px 30px 60px;
+	text-align: center;
+}
+.gambar {
+	padding: 20px 10px 10px 10px;
+	width: 5%;
+	height: 50px;
+	display: inline-block;
+	margin-left: 5%;
+}
+.gambar:hover{
+	border-radius: 100%;
+	background-color:#0071bc; 
+}
+.cr {
+	color: white;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+	background-color: #0071bc;
+	padding: 10px;
+}
